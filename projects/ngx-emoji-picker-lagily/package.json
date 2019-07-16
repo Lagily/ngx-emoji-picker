@@ -1,0 +1,31 @@
+{
+  "name": "ngx-emoji-picker-lagily",
+  "author": {
+    "name": "Ali Nasserzadeh",
+    "email": "nasserzadeh@live.com",
+    "url": "https://github.com/Lagily/ngx-emoji-picker"
+  },
+  "version": "0.0.7",
+  "description": "A simple emoji picker for Angular 2+ / Ionic 3 with AOT build support - replaced buttons with labels so on Android the keyboard is not collpased",
+  "keywords": [
+    "emoji",
+    "picker",
+    "angular",
+    "angular2",
+    "angular7",
+    "ionic3",
+    "ionic",
+    "ngx",
+    "dropdown",
+    "aot"
+  ],
+  "homepage": "https://github.com/Lagily/ngx-emoji-picker",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^7.1.0",
+    "@angular/core": "^7.1.0"
+  },
+  "devDependencies": {
+    "ng-packagr": "^5.3.0"
+  }
+}

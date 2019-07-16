@@ -130,7 +130,7 @@
         }
       }
     },
-    "ngx-emoji-picker": {
+    "ngx-emoji-picker-lagily": {
       "root": "projects/ngx-emoji-picker",
       "sourceRoot": "projects/ngx-emoji-picker/src",
       "projectType": "library",
@@ -139,8 +139,8 @@
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ngx-emoji-picker/tsconfig.lib.json",
-            "project": "projects/ngx-emoji-picker/ng-package.json"
+            "tsConfig": "projects/ngx-emoji-picker-lagily/tsconfig.lib.json",
+            "project": "projects/ngx-emoji-picker-lagily/ng-package.json"
           }
         },
         "test": {
@@ -155,8 +155,8 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ngx-emoji-picker/tsconfig.lib.json",
-              "projects/ngx-emoji-picker/tsconfig.spec.json"
+              "projects/ngx-emoji-picker-lagily/tsconfig.lib.json",
+              "projects/ngx-emoji-picker-lagily/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -166,5 +166,5 @@
       }
     }
   },
-  "defaultProject": "ngx-emoji-picker"
+  "defaultProject": "ngx-emoji-picker-lagily"
 }
